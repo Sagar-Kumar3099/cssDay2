@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box that changes shape</title>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: space-around;
+            border: 20px solid rgb(121, 100, 104);
+            padding: 50px;
+        }
+      .box {
+        display: flex;
+        border: 2px solid black;
+        height: 200px;
+        width: 100px;
+        background-color: whitesmoke;
+      }
+      .box-3{
+        display: flex;
+        border: 2px solid black;
+        height: 200px;
+        width: 100px;
+        background-color: rgb(178, 192, 184);
+      }
+      .box-3:hover{
+        background-color: rgb(151, 151, 180);
+        height: 400px;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box-3"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+  </body>
+</html>
